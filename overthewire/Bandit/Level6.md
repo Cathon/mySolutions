@@ -26,3 +26,6 @@ as for "2>/dev/null", it means the error messages are sent to /dev/null, in othe
 "-exec cat {} \'"means, if somefile found, show its content
 
 
+## Reference
+
+http://hackmethod.com/overthewire-bandit-7/
