@@ -16,16 +16,12 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
 
 At first I try to find the file in home folder but failed
-
 Then I found in Level Goal that the file may occur anywhere
-
 so I use "find /", and "-type -user -group -size" are parameters
-
 as for "2>/dev/null", it means the error messages are sent to /dev/null, in other words, we won't see any error message
-
 "-exec cat {} \'"means, if somefile found, show its content
-
 
 ## Reference
 
 http://hackmethod.com/overthewire-bandit-7/
+
