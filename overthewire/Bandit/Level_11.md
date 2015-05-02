@@ -15,8 +15,9 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 ## Solution
 
 ```
-bandit11@melinda:~$ cat data.txt | tr [A-Z] [a-z] | tr "abcdefghijklmnopqrstuvwxyz" "nopqrstuvwxyzabcdefghijklm"
-the password is 5te8y4drgcrfcx8ugdwuex8kfc6k2euu
+bandit11@melinda:~$ cat data.txt | tr 'a-m n-z A-M N-Z' 'n-z a-m N-Z A-M'
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
 
-A better solution is excepted
+I made a mistake that I convert letters to lower characters like this:
+'cat data.txt | tr [A-Z] [a-z] | tr "abcdefghijklmnopqrstuvwxyz" "nopqrstuvwxyzabcdefghijklm"'
