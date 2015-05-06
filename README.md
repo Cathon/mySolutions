@@ -6,3 +6,4 @@ my solutions for several kinds of problems on the Internet
 + [ProjectEuler](https://projecteuler.net)
 + [pythonchallenge](http://www.pythonchallenge.com/)
 + [wargame-overthewire](http://overthewire.org/wargames/)
++ [hackerskills](http://hackerskills.com/)
