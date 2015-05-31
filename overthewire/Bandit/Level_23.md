@@ -18,8 +18,10 @@ We find the file /usr/bin/cronjob_bandit24.sh would be executed.
 And it will execute all scripts in /var/spool/bandit24 and then delete them.
 Otherway, I know the password is stored in /etc/bandit_pass/bandit24.
 So I would like to touch a file named tash.sh whose content is followed:
+```
 #!/bin/bash
 cat /etc/bandit_pass/bandit24 > /tmp/ans
+```
 It means copy the content of '/etc/bandit_pass/bandit24' to '/tmp/ans'
 Then dont forget change the access permissions and copy it to /var/spool/bandit24/
 After a while, we can see the password if /tmp/ans.
