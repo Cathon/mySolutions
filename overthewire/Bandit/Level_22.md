@@ -33,6 +33,6 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 bandit22@melinda:/etc/cron.d$ echo I am user $(whoami) | md5sum | cut -d ' ' -f 1
 8169b67bd894ddbb4412f91573b38db3
 bandit22@melinda:/etc/cron.d$ cat /tmp/8169b67bd894ddbb4412f91573b38db3
-Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 ```
 
