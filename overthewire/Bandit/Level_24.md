@@ -58,3 +58,4 @@ This works:(by @rvrheenen)
 echo "" > pins && for i in {0000..9999}; do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pins; done && cat pins | nc localhost 1
 30002
 ```
+This basic idea is creating a dictionary first and then transmit it to the port. A good way!
